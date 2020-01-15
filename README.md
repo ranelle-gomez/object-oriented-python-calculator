@@ -1,4 +1,4 @@
-# Modular Calculator
+# Modular Calculator: An objected-oriented-programming calculator written in Python.
 
 ![Project Image](project-image-url)
 
@@ -19,12 +19,13 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-This simple calculator class I implemented contains four methods: 1) Add
+A simple calculator class that contains methods 
 
-#### Technologies
+#### Concepts
 
-- Technology 1
-- Technology 2
+- Tail-recursive calls
+- Object-oriented programming
+- Unit testing
 
 [Back To The Top](#read-me-template)
 
@@ -51,7 +52,8 @@ Installation is simple.
 
 ## References
 [Back To The Top](#read-me-template)
-https://raw.githubusercontent.com/jamesqquick/read-me-template/master/README.md
+https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/data/tail_recursion.html
+http://composingprograms.com/pages/22-data-abstraction.html
 
 ---
 
@@ -59,7 +61,7 @@ https://raw.githubusercontent.com/jamesqquick/read-me-template/master/README.md
 
 MIT License
 
-Copyright (c) [2017] [Ranelle Gomez]
+Copyright (c) [2020] [Ranelle Gomez]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -85,7 +87,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+I am an undergraduate at UC Berkeley studying applied math and computer science. If you have any questions or comments, please reach me by the following: 1) email: ranellegomez@gmail.com 2) Text: (323) 999-4720.
+LinkedIn: https://www.linkedin.com/in/ranellegomez/
 
 [Back To The Top](#read-me-template)
