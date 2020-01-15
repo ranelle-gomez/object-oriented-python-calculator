@@ -1,4 +1,4 @@
-# Modular Calculator: An objected-oriented-programming calculator written in Python.
+# Modular Calculator: An OOP calculator written in Python.
 
 ![Project Image](calculator_interface.png)
 
