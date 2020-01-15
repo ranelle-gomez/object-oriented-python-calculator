@@ -56,7 +56,7 @@ class ModularCalculator:
         try:
             return numbers[0] * 1 / ModularCalculator.multiply(self, numbers[1:])
         except ZeroDivisionError:
-            return "Whoops. Can't divide by zero."
+            return "Whoops. Can't divide by zero. 😭"
 
     def two_integer_exponentiate(self, base, exponent):
         """"Returns the result of raising base to exponent, where base and exponent are integers.
@@ -69,15 +69,15 @@ class ModularCalculator:
         """
         result = 1
         i = 0
-        if not isinstance(base, int) or not isinstance(exponent, int):  # imposed in case another main() not imposing intger                                                        # imposing integer-input exception is used. .
+        if not isinstance(base, int) or not isinstance(exponent, int):  # imposed in case another main() not imposing intger
             return 'Base and exponent must both be integers.'
         if exponent == 0:
             return 1
         while i < abs(exponent):  # accounts for case of a negative exponent.
             if exponent < 0:
-                result = ModularCalculator.multiply(self, [result, ModularCalculator.divide(self, [1, base])]);
+                result = ModularCalculator.multiply(self, [result, ModularCalculator.divide(self, [1, base])])
             elif exponent > 0:
-                result = ModularCalculator.multiply(self, [result, base]);
+                result = ModularCalculator.multiply(self, [result, base])
             i = ModularCalculator.add(self, [i, 1])
         return result
 
@@ -85,11 +85,13 @@ class ModularCalculator:
 if __name__ == '__main__':
 
     test_calculator = ModularCalculator()
+    print('Welcome to Modular Calculator! 🙂')
 
     while True:
-        choice = input("1) Add 2) Multiply 3) Divide 4) Two-integer Exponentiate 5) Exit\n")
-        if choice not in "12345":
-            print("Invalid input. Please choose from 1-5.")
+        choice = input("Choose the operation you want. 🤓\n"
+                       "1) Add 2) Subtract 3) Multiply 4) Divide 5) Two-integer Exponentiate 6) Exit\n")
+        if choice not in "123456":
+            print("Invalid input. Please choose from 1-6.")
             continue
         elif choice == '1':
             summands = [float(i) for i in
@@ -101,6 +103,18 @@ if __name__ == '__main__':
             print(test_calculator.add(summands))
             print("--- Calculated in %s second(s)! ---" % (time.time() - start_time))
         elif choice == '2':
+            args = [float(i) for i in
+                        input('Input the numbers you would like to subtract from the first, separated by spaces.\n'
+                              'For 8 - 4 - 4: "8 4 4"\n'
+                              'Note: All numbers following the first one will be subtracted from the first.\n').split()]
+            if len(args) < 2:
+                print('Invalid number of input; takes at least two summands.\n')
+                continue
+            start_time = time.time()
+            print(test_calculator.add(args))
+            print("--- Calculated in %s second(s)! 😮 ---" % (time.time() - start_time))
+
+        elif choice == '3':
             multicands = [float(i) for i in
                           input('Input the numbers you would like to multiply, separated by spaces.\n').split()]
             if len(multicands) < 2:
@@ -108,8 +122,8 @@ if __name__ == '__main__':
                 continue
             start_time = time.time()
             (print(test_calculator.multiply(multicands)))
-            print("--- Calculated in %s second(s)! ---" % (time.time() - start_time))
-        elif choice == '3':
+            print("--- Calculated in %s second(s)! 😮 ---" % (time.time() - start_time))
+        elif choice == '4':
             args = [int(i) for i in
                     input('Input the dividend and divisor(s). For 6 ÷ 4 ÷ 2: "6 4 2"\n').split()]
             if len(args) < 2:
@@ -117,8 +131,8 @@ if __name__ == '__main__':
                 continue
             start_time = time.time()
             print(test_calculator.divide(args))
-            print("--- Calculated in %s second(s)! ---" % (time.time() - start_time))
-        elif choice == '4':
+            print("--- Calculated in %s second(s)! 😮---" % (time.time() - start_time))
+        elif choice == '5':
             try:
                 args = [int(i) for i in
                     input('Input the base and exponent, separated by a space. For 3^2: "3 2".\n').split()]
@@ -131,9 +145,9 @@ if __name__ == '__main__':
                 continue
             start_time = time.time()
             print(test_calculator.two_integer_exponentiate(base, exponent))
-            print("--- Calculated in %s second(s)! ---" % (time.time() - start_time))
+            print("--- Calculated in %s second(s)! 😮 ---" % (time.time() - start_time))
         else:
-            print('Goodbye!')
+            print('Goodbye! I hope your problem is solved. 😏')
             break
 
 
