@@ -44,16 +44,16 @@ I originally implemented two versions of exponentiate in the calculator.py class
 #### Installation
 Installation is simple. 
 1) Simply download the calculator.py. 
-2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: "cd downloads" 
+2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: ```html
+    cd downloads
+```
 3) Input "python3 calculator.py" on the command line. The program should boot on your terminal with different calculation options along with a choice to exit. 
 
 
 
-#### API Reference
+#### Some other things
 
-```html
-    <p>dummy code</p>
-```
+
 [Back To The Top](#read-me-template)
 
 ---
