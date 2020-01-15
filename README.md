@@ -1,6 +1,6 @@
 # Modular Calculator: An objected-oriented-programming calculator written in Python.
 
-![Calculator Interface_Image](calculator_interface.png)
+![Project Image](calculator_interface.png)
 
 > "I can only dream of a calculator that uses little parts of itself to solve large problems!" the unlucky soul thought before this program was written.   
 
@@ -44,16 +44,16 @@ I originally implemented two versions of exponentiate in the calculator.py class
 #### Installation
 Installation is simple. 
 1) Simply download the calculator.py. 
-2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: ```html
-    cd downloads
-```
+2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: "cd downloads" 
 3) Input "python3 calculator.py" on the command line. The program should boot on your terminal with different calculation options along with a choice to exit. 
 
 
 
-#### Some other things
+#### API Reference
 
-
+```html
+    <p>dummy code</p>
+```
 [Back To The Top](#read-me-template)
 
 ---
@@ -61,8 +61,8 @@ Installation is simple.
 ## References
 https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/data/tail_recursion.html
 http://composingprograms.com/pages/22-data-abstraction.html
-
 [Back To The Top](#read-me-template)
+
 
 ---
 
@@ -72,31 +72,13 @@ MIT License
 
 Copyright (c) [2020] [Ranelle Gomez]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
 [Back To The Top](#read-me-template)
 
 ---
 
 ## Author Info
 
-I am an undergraduate at UC Berkeley studying applied math and computer science. If you have any questions or comments, please reach me by the following: 1) email: ranellegomez@gmail.com 2) Text: (323) 999-4720 3)
+As of writing in January 2020, I am an undergraduate at UC Berkeley studying applied math and computer science. If you have any questions or comments, please reach me by the following: 1) email: ranellegomez@gmail.com 2) Text: (323) 999-4720 3)
 LinkedIn: https://www.linkedin.com/in/ranellegomez/
 
 [Back To The Top](#read-me-template)
