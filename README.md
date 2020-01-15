@@ -59,9 +59,10 @@ Installation is simple.
 ---
 
 ## References
-[Back To The Top](#read-me-template)
 https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/data/tail_recursion.html
 http://composingprograms.com/pages/22-data-abstraction.html
+
+[Back To The Top](#read-me-template)
 
 ---
 
