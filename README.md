@@ -52,7 +52,7 @@ Installation is simple.
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+    cd downloads
 ```
 [Back To The Top](#Modular Calculator: An OOP calculator written in Python.)
 
