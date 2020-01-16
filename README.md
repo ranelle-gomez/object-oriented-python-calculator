@@ -66,7 +66,7 @@ http://composingprograms.com/pages/22-data-abstraction.html
 
 MIT License
 
-Copyright (c) [2020] [Ranelle Gomez]
+Copyright (c) 2020 Ranelle Gomez
 
 
 ---
