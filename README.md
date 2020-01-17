@@ -21,7 +21,7 @@ You're sections headers will be used to reference location of destination.
 
 A simple object-oriented calculator class I built from scratch whose modular methods allow for black-box abstraction and brevity. Upon starting the program, the user is given five options: 1) Add 2) Subtract 3) Multiply 4) Divide 5) Two-integer Exponentiate 6) Exit.
 
-#### The Design Process along with Humbling & Surprising Discoveries 
+#### The design process along with humbling and surprising discoveries 
 
 Upon writing this program, I faced many unexpected obstacles. Namely, I had issues with the input of the methods, the the maximum-recursion-depth error, input-validation techniques. 
 
