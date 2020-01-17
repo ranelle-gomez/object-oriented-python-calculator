@@ -27,6 +27,7 @@ Upon writing this program, I faced many unexpected obstacles. Namely, I had issu
 
 I originally implemented two versions of exponentiate in the calculator.py class: fastExponentiate() and slowExponentiate. The former with a tail-recursive design and the latter with normal recursion given a base a case that returns the result variable once the base-case counter is reached. I first tested the functions using python's built-in timer. Testing 3^n (where n is an integer), I found that for small n ranging below 1000, the tail-recursive functions was faster only by a hair. I then tried testing above 1000 to find a maximum-recursion-depth error. The override this, I added "import sys" along with " sys.setrecursionlimit(9999999)" at my own discretion, appreciating the risky nature of such a design choice. Surprisingly, I found that for large n, conventional recursion was always faster. I naively believed that the tail-recursive method would perform at constant space while the the the conventional-recursive method would perform linearly. Since python is an interpreted language, it cannot take advantage of tail-call optimization, where there are n stack frames over 1 stack frame. My research has found that for the interpreted languages like python, iteration will always be faster for most cases. Thus, I chose iteration for my final design choice of two_integer_exponentiate(self, base, exponent).
 
+(runtime_benchmark_chart.svg)
 
 #### Concepts
 
