@@ -1,5 +1,4 @@
 import time
-import RecursiveExponentCalculator
 
 
 class ModularCalculator:
@@ -52,10 +51,10 @@ class ModularCalculator:
         >>> divide([8, 4, 2]) # 8 * 1/4 * 1/2
         1
         >>> divide([1, 0])
-        Whoops. Can't divide by zero. 😭
+        Whoops. Cannot divide by zero. 😭
         """
         try:
-            return numbers[0] / ModularCalculator.multiply(self, numbers[1:])
+            return numbers[0]/ModularCalculator.multiply(self, numbers[1:])
         except ZeroDivisionError:
             return 'Whoops. Cannot divide by zero. 😭'
 
@@ -66,7 +65,7 @@ class ModularCalculator:
         >>> two_integer_exponentiate([1, 0])
         1
         >>> two_integer_exponentiate([3, 999999])
-        5992367055585812... ≈ 5.99 x 10^477120
+        5992367055585812... # ≈ 5.99 x 10^477120
         """
         result = 1
         i = 0
