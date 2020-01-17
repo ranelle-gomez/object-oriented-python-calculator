@@ -1,6 +1,6 @@
 # Modular Calculator: An OOP calculator written in Python.
 
-![Project Image](calculator_interface.png)
+![Project Image](runtime_benchmark_chart.svg)
 
 > "I can only dream of a calculator that uses little parts of itself to solve large problems!" the unlucky soul thought before this program was written.   
 
