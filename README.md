@@ -47,6 +47,7 @@ Installation is simple.
 1) Simply download the calculator.py file. 
 2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: "cd downloads" 
 3) Input "python3 calculator.py" on the command line. The program should boot on your terminal with different calculation options along with a choice to exit. 
+
 ![Project Image](setup.png)
 ---
 
@@ -65,6 +66,7 @@ Copyright (c) 2020 Ranelle Gomez
 ---
 
 ## Author Info
+
 As of writing in January 2020, I am an undergraduate at UC Berkeley studying applied math and computer science. If you have any questions or comments, please reach me by the following: 1) email: ranellegomez@gmail.com 2) Text: (323) 999-4720 3)
 LinkedIn: https://www.linkedin.com/in/ranellegomez/
 
