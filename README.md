@@ -16,7 +16,7 @@
 
 ## Description
 
-A simple object-oriented calculator class I built from scratch whose modular methods allow for black-box abstraction and brevity; some methods even call each other. Upon starting the program, the user is given five options: 1) Add 2) Subtract 3) Multiply 4) Divide 5) Two-integer Exponentiate 6) Exit.
+A simple object-oriented calculator class I built from scratch whose modular methods allow for black-box abstraction and brevity; some methods even call each other (higher-order functions). Upon starting the program, the user is given five options: 1) Add 2) Subtract 3) Multiply 4) Divide 5) Two-integer Exponentiate 6) Exit.
 
 #### The design process along with humbling and surprising discoveries 
 
@@ -32,7 +32,8 @@ For test cases, I used three nested for-loops ranging from -100 to 100 to test a
 
 #### Concepts
 - Quadratic-time complexity
-- Tail-recursive calls
+- Recursion
+- Higher-order functions
 - Object-oriented programming
 - Unit testing
 ---
