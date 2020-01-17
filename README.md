@@ -38,8 +38,6 @@ For test cases, I used three nested for-loops ranging from -100 to 100 to test a
 - Tail-recursive calls
 - Object-oriented programming
 - Unit testing
-
-
 ---
 
 ## How To Use
@@ -49,22 +47,12 @@ Installation is simple.
 1) Simply download the calculator.py. 
 2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: "cd downloads" 
 3) Input "python3 calculator.py" on the command line. The program should boot on your terminal with different calculation options along with a choice to exit. 
-
-
-
-#### API Reference
-
-```html
-    cd downloads
-```
-
+![Project Image](runtime_benchmark_chart.svg)
 ---
 
 ## References
 https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/data/tail_recursion.html
 http://composingprograms.com/pages/22-data-abstraction.html
-
-
 ---
 
 ## License
