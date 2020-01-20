@@ -42,9 +42,9 @@ For test cases, I used three nested for-loops ranging from -100 to 100 to test a
 
 #### Installation
 Installation is simple. 
-1) Simply download the calculator.py file. 
-2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input the following in their terminal: "cd downloads" 
-3) Input "python3 calculator.py" on the command line. The program should boot on your terminal with different calculation options along with a choice to exit. 
+1) Simply download the _calculator.py_ file. 
+2) CD into the folder (or address directory) where calculator.py is located. By defaut, it is likely to be in your downloads folder. On macOS, one would input ```cd downloads``` in her terminal. 
+3) Input ```python3 calculator.py``` on the command line. The program should start on your terminal with different calculation options and friendly faces along with a choice to exit. 
 
 ![Project Image](setup.png)
 ---
