@@ -27,6 +27,7 @@ class RecursiveExponentiation:
                 return result
             else:
                 return exp_tail(base, exponent - 1, result * base)
+
         return exp_tail(base, exponent, 1)
 
     def recursive_exponentiate(self, base, exponent):
@@ -44,7 +45,8 @@ class RecursiveExponentiation:
         elif exponent == 0 or base == 1:
             return result
         else:
-            return base * RecursiveExponentiation.recursive_exponentiate(self, base, exponent - 1)
+            return base * RecursiveExponentiation.recursive_exponentiate(
+                self, base, exponent - 1)
 
 
 if __name__ == '__main__':
@@ -57,21 +59,31 @@ if __name__ == '__main__':
         if choice not in "123":
             print("Invalid input. Please choose from 1-3.")
         elif choice == '1':
-            args = [int(i) for i in
-                    input('Input the base and exponent, separated by a space. For example, for 3^2, input: "3 2".\n').split()]
+            args = [
+                int(i) for i in input(
+                    'Input the base and exponent, separated by a space. For example, for 3^2, input: "3 2".\n'
+                ).split()
+            ]
             base, exponent = args[0], args[1]
             if len(args) != 2 or base < 0 or exponent < 0:
-                print('Invalid input; takes only 2 positive-integer arguments.\n')
+                print(
+                    'Invalid input; takes only 2 positive-integer arguments.\n'
+                )
                 continue
             start_time = time.time()
             print(obj.tail_recursive_exponentiate(base, exponent))
             print("--- %s second(s) ---" % (time.time() - start_time))
         elif choice == '2':
-            args = [int(i) for i in
-                    input('Input the base and exponent, separated by a space. For example, for 3^2, input: "3 2".\n').split()]
+            args = [
+                int(i) for i in input(
+                    'Input the base and exponent, separated by a space. For example, for 3^2, input: "3 2".\n'
+                ).split()
+            ]
             base, exponent = args[0], args[1]
             if len(args) != 2 or base < 0 or exponent < 0:
-                print('Invalid input; takes only 2 positive-integer arguments.\n')
+                print(
+                    'Invalid input; takes only 2 positive-integer arguments.\n'
+                )
                 continue
             start_time = time.time()
             print(obj.recursive_exponentiate(base, exponent))
